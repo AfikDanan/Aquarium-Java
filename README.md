@@ -1,6 +1,6 @@
 # Aquarium-Java
 
-#### Authors: 
+### Authors: 
 
 * Afik Danan - afikdanan@gmail.com
 * Topaz Aakal – topazaa@ac.sce.ac.il
@@ -17,3 +17,34 @@ We implemented the following design pattrens:
 - Decorator - Change the color of a selected creature. 
 - Abstract Factory - to create new instances of animal or plants (user choice).
 - Singleton - to force only one instance of the worm (food).
+
+
+### Few screenshots:  
+For start we will add some animals and plants.
+![animal and plants created](README_Media/Start.png)
+
+Now we will save some of the animals current state (size, location, speed and color) using Memento
+![Saving current state](README_Media/Memento.png)
+
+After saving let's change te colors using our Decorator. Select animal
+![Change color](README_Media/Decorator.png)
+
+Select color.
+![color choose](README_Media/Color_Chooser.png)
+
+Some fish are in Hungry state. Let's feed them.
+![Worm on panel](README_Media/Food.png)
+
+Yum nice worm. The fish that got the worm change it state to Satiated
+![The hungry fish ate it and the state was change](README_Media/Ate_worm.png)
+
+Time to restore the Saved animals.
+![Restore panel](README_Media/Restore.png)
+
+All back as it was.
+![Restore panel](README_Media/After_Restore.png)
+
+
+### Thank you
+
+
