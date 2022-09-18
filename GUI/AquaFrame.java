@@ -33,7 +33,7 @@ public class AquaFrame extends JFrame implements ActionListener {
     JMenuItem menuItemExit, menuItemImage, menuItemBlue, menuItemNone, menuItemHelp, menuItemMemento;
     private Image image;
     private static Worm worm;
-    final static String IMAGE_PATH = "src\\GUI\\Media\\aqua.jpg";
+    final static String IMAGE_PATH = "GUI\\Media\\aqua.jpg";
     private boolean flag = true;
     static int aquaWidth, aquaHeight;
 
